@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio - Michele Valente</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Progetti</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contatti">Contatti</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="vh-100 d-flex align-items-center text-center"
+style="
+    background-image: url('img/home.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+">
+  <div class="container">
+    <h1 class="display-4 fw-bold text-white shadow-text">Ciao, sono Michele Valente</h1>
+    <h2 class=" text-white shadow-text">Studente di Informatica • Sviluppo Web e Programmazione con Java e Python</h2>
+    <a href="#portfolio" class="btn btn-primary btn-lg mt-3">Guarda i miei progetti</a>
+    <a href="#contatti" class="btn btn-light btn-lg mt-3">Contattami</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="mb-4 text-center">About Me</h2>
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="img/me.webp" class="img-fluid rounded-circle" width="250" loading="lazy" alt="Foto personale ">
+      </div>
+      <div class="col-md-8">
+        <p>Sono uno studente di informatica appassionato di sviluppo software e tecnologie digitali. Mi occupo sia di web development che di programmazione in Java e Python, cercando di trasformare le idee in progetti concreti e funzionali. Sono motivato a migliorare costantemente le mie competenze tecniche e il mio approccio al problem solving.</p>
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- SKILLS COMPLETO -->
+<section id="skills" class="py-5 bg-light">
+  <div class="container">
+
+    <h2 class="text-center mb-5">Skills</h2>
+
+    <!-- SOFT SKILLS -->
+    <h4 class="text-center mb-4">Soft Skills</h4>
+    <div class="row g-4 mb-5">
+
+      <div class="col-md-4">
+        <div class="skill-card p-3 text-center shadow-sm">
+          <img src="img/teamwork.webp" class=" mx-auto mb-2" loading="lazy" alt="Icona Teamwork">
+          <h5>Teamwork</h5>
+          <p>Collaboro bene con gli altri e lavoro in gruppo in modo efficace.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="skill-card p-3 text-center shadow-sm">
+          <img src="img/problemsolving.webp" class=" mx-auto mb-2" loading="lazy" alt="Icona Problem Solving">
+          <h5>Problem Solving</h5>
+          <p>Trovo soluzioni pratiche ai problemi in modo rapido e creativo.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="skill-card p-3 text-center shadow-sm">
+          <img src="img/communicazione.webp" class=" mx-auto mb-2" loading="lazy" alt="Icona Comunicazione">
+          <h5>Comunicazione</h5>
+          <p>Comunico concetti tecnici in modo chiaro ed efficace.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="skill-card p-3 text-center shadow-sm">
+          <img src="img/leader.webp" class=" mx-auto mb-2" loading="lazy" alt="Icona Leadership">
+          <h5>Leadership</h5>
+          <p>So gestire un lavoro di gruppo prendendo decisioni e organizzando le attività.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="skill-card p-3 text-center shadow-sm">
+          <img src="img/critical-thinking.webp" class=" mx-auto mb-2" loading="lazy" alt="Icona Pensiero Critico">
+          <h5>Pensiero Critico</h5>
+          <p>Analizzo i problemi individuando le cause e valutando soluzioni diverse.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="skill-card p-3 text-center shadow-sm">
+          <img src="img/reliability.webp" class=" mx-auto mb-2 rounded" loading="lazy" alt="Icona Affidabilità">
+          <h5>Affidabilità</h5>
+          <p>Rispetto le scadenze e porto a termine gli impegni con costanza.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- HARD SKILLS -->
+    <h4 class="text-center mb-4">Skills Tecniche</h4>
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-6 col-md-4">
+        <div class="skill-card text-center p-3 shadow-sm">
+          <img src="img/html.webp" class="mx-auto mb-2" loading="lazy" alt="Logo HTML">
+          <h6>HTML</h6>
+          <p>Creo la struttura delle pagine web usando tag semantici e codice pulito.</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="skill-card text-center p-3 shadow-sm">
+          <img src="img/css.webp" class="mx-auto mb-2" loading="lazy" alt="Logo CSS">
+          <h6>CSS</h6>
+          <p>Realizzo design responsive, moderni e coerenti con attenzione ai dettagli grafici.</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="skill-card text-center p-3 shadow-sm">
+          <img src="img/javascript.webp" class="mx-auto mb-2" loading="lazy" alt="Logo JavaScript">
+          <h6>JavaScript</h6>
+          <p>Sviluppo funzionalità dinamiche e interattive per migliorare l’esperienza utente.</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="skill-card text-center p-3 shadow-sm">
+          <img src="img/java.webp" class="mx-auto mb-2" loading="lazy" alt="Logo Java">
+          <h6>Java</h6>
+          <p>Programmo applicazioni orientate agli oggetti con buona gestione di classi e metodi.</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="skill-card text-center p-3 shadow-sm">
+          <img src="img/python.webp" class="mx-auto mb-2" loading="lazy" alt="Logo Python">
+          <h6>Python</h6>
+          <p>Utilizzo Python per automazioni, piccoli progetti e gestione dei dati.</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="skill-card text-center p-3 shadow-sm">
+          <img src="img/c.webp" class="mx-auto mb-2" loading="lazy" alt="Logo Linguaggio C">
+          <h6>C</h6>
+          <p>Comprendo la logica di base della programmazione procedurale e la gestione della memoria.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">I miei progetti</h2>
+
+    <div class="row g-4">
+
+      <!-- PROGETTO 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm p-4 h-100">
+          <h5 class="text-center">Gestione Lavatrici (Java)</h5>
+          <p class="text-center">Programma Java con ArrayList, ricerca e ordinamento.</p>
+          <script src="https://gist.github.com/ValenteMichele/15bcb33447f31e8fb0d150f49cbb55c1.js"></script>
+        </div>
+      </div>
+
+      <!-- PROGETTO 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm p-4 h-100">
+          <h5 class="text-center">Luogo del cuore</h5>
+          <p class="text-center">
+            Questo è il mio primo sito realizzato con Bootstrap, dedicato al mio luogo del cuore: Valencia.
+          </p>
+          <script src="https://gist.github.com/ValenteMichele/a241a4082365e35e61ea26d442f9fc3b.js"></script>
+        </div>
+      </div>
+
+      <!-- PROGETTO 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm p-4 h-100">
+          <h5 class="text-center">Gioco Sasso Carta Forbici</h5>
+          <p class="text-center">
+            Gioco realizzato con HTML e JavaScript per esercitarmi con DOM, eventi e logica.
+          </p>
+          <script src="https://gist.github.com/ValenteMichele/d6d112c797f767c65ac6bea4bf93906d.js"></script>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTATTI -->
+<section id="contatti" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Contatti</h2>
+
+    <div class="row">
+
+      <!-- SINISTRA: CONTATTI -->
+      <div class="col-md-5 mb-4">
+        <h4>Contattami</h4>
+        <p>Puoi trovarmi anche sui social:</p>
+
+        <ul class="list-unstyled">
+          <li class="mb-3">
+            📸 <a href="https://www.instagram.com/miky_valente?igsh=dnhjb2F3ZDBjcHRh&utm_source=qr" target="_blank">Instagram</a>
+          </li>
+          <li class="mb-3">
+            💻 <a href="https://github.com/ValenteMichele" target="_blank">GitHub</a>
+          </li>
+          <li class="mb-3">
+            🎵 <a href="https://www.tiktok.com/@michelevalente_?_r=1&_t=ZN-95OpLuznmkg" target="_blank">TikTok</a>
+          </li>
+          <li class="mb-3">
+            📧 <a href="mailto:michele.valente@marconibari.edu.it" >Email</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- DESTRA: FORM -->
+  <div class="col-md-6">
+    <div class="p-4 bg-white">
+        <h3 class="text-center mb-4">Scrivimi</h3>
+
+        <form id="formContatto">
+
+            <div class="mb-3">
+                <input type="text" class="form-control custom-input form-contatto" placeholder="Nome" required>
+            </div>
+
+            <div class="mb-3">
+                <input type="email" class="form-control custom-input form-contatto" placeholder="Email" required>
+            </div>
+
+            <div class="mb-3">
+                <input type="text" class="form-control custom-input form-contatto" placeholder="Oggetto" required>
+            </div>
+
+            <div class="mb-3">
+                <textarea class="form-control custom-input form-contatto" placeholder="Messaggio" rows="4" required></textarea>
+            </div>
+
+            <div class="text-center">
+                <button type="button" id="btnM" class="btn-mess">Invia Messaggio</button>
+            </div>
+
+        </form>
+
+        <div id="mess" class="text-center mt-3"></div>
+        <div id="riepilogo" class="mt-3 p-3" ></div>
+    </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-3 bg-dark text-white">
+  © 2026 Michele Valente — Tutti i diritti riservati  
+  <br>
+  <a href="#home" class="text-white">Torna su</a>
+</footer>
+
+
+<script>
+const bottone = document.getElementById("btnM");
+const form = document.getElementById("formContatto");
+const messDiv = document.getElementById("mess");
+const riepilogoDiv = document.getElementById("riepilogo");
+
+function invio() {
+    if (!form.reportValidity()) {
+        messDiv.textContent = "Compila tutti i campi obbligatori correttamente!";
+        riepilogoDiv.style.display = "none";
+        return;
+    }
+
+    const campi = document.getElementsByClassName("form-contatto");
+    let testo = "Riepilogo:<br>";
+
+    for (let i = 0; i < campi.length; i++) {
+        testo += campi[i].placeholder + ": " + campi[i].value + "<br>";
+    }
+
+    riepilogoDiv.innerHTML = testo;
+    riepilogoDiv.style.display = "block"; 
+    messDiv.textContent = "Messaggio inviato con successo!";
+
+    form.reset();
+}
+
+bottone.addEventListener("click", invio);
+</script>
+
+
+
+</body>
+</html>
